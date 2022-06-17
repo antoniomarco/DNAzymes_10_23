@@ -1,0 +1,7 @@
+This package contains two scripts under different licenses:
+
+- The script 'run_analysis_DNAzymes.R' is distributed under the GPLv3 license (https://www.gnu.org/licenses/gpl-3.0.en.html), therefore it can used and/or modified for any purpose (academic, educational, personal, commercial) as long as proper credit is given and any software derived from it is also released under the GPLv3 license.
+
+- The script 'DNAzyme_scan.pl' is distributed under the CC BY-NC-ND 3.0 license (https://creativecommons.org/licenses/by-nc-nd/3.0/), which means, among other things, that you can use the code for non-commercial purposes. For commercial use, please, contact the author.
+
+The software is provided without any warranty.

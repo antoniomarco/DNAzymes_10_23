@@ -1,0 +1,23 @@
+This folder contains two different  scripts:
+
+DNAzyme_scan.pl
+===============
+This is a PERL program that takes as an input a FASTA file with RNA (or DNA) sequences and reports all putative target sites with their respective DNAzymes, together with the predicted binding free energy (DeltaG). To run it with the provided example file the command is:
+
+perl DNAzyme_scan.pl -i HPV_16 -o DNAzymes_HPV_16
+
+Optionally, the user can specify the arm length (set by default to 9 nt) with the option '-l':
+
+perl DNAzyme_scan.pl  -i HPV_16 -o DNAzymes_HPV_16 -l 10
+
+This script is free to use and distribute for non-commercial purposes. Please read the file COPYING for further information.
+
+
+run_analysis_DNAzymes.R
+=======================
+This is a R script containing the code to reproduce all the statistical analysis described in the main paper. It also produces figures 2 and 3. The default input file is also provided as 'HPV_FullLength.tab'
+
+
+
+
+Antonio Marco, 2022
